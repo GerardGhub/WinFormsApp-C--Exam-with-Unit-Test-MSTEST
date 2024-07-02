@@ -11,6 +11,7 @@ namespace WinFormsAppSource.Model
     {
         public string Sort(string input)
         {
+
             char[] chars = input.ToCharArray();
             for (int i = 0; i < chars.Length - 1; i++)
             {
